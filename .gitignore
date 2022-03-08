@@ -3,6 +3,7 @@
 
 # misc
 .DS_Store
+.env
 
 # Editor directories and files
 .idea
