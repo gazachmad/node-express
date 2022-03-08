@@ -1,7 +1,7 @@
 {
-  "name": "sinode",
+  "name": "express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node JS Express Framework",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,16 +9,34 @@
     "dev": "nodemon public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazachmad/sinode.git"
+  },
   "keywords": [],
   "author": "Achmad Gazhali",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.13.0"
+  "bugs": {
+    "url": "https://github.com/gazachmad/sinode/issues"
   },
+  "homepage": "https://github.com/gazachmad/sinode#readme",
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0",
+    "validatorjs": "^3.22.1"
   }
 }
